@@ -47,15 +47,9 @@
 
       <section id="main_content">
         <h3>
-<a id="about-this-branch" class="anchor" href="#about-this-branch" aria-hidden="true"><span class="octicon octicon-link"></span></a>ABOUT THIS BRANCH</h3>
+<a id="synopsis" class="anchor" href="#synopsis" aria-hidden="true"><span class="octicon octicon-link"></span></a>SYNOPSIS</h3>
 
-<ul>
-<li>Re-coded in ES6</li>
-<li>Removed jquery dependency</li>
-<li>Removed all event listeners, onproess, onmetadata, onloadeddata, onloadstart. Add them back if you need them</li>
-<li>Removed auto converting video tags with "playsinline" attribute. Instead, the developer pass in the video and canvas idendifier in the contructor</li>
-<li>Removed auto create canvas element. I think adding them in HTML code is more obvious and the developer has more control over the dimension and positioning</li>
-</ul>
+<p>InlineVideo.js is intended to allow users on an iphone to play videos inline in the safari browser, circumventing the default fullscreen behavior.  </p>
 
 <h3>
 <a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span class="octicon octicon-link"></span></a>CHANGELOG</h3>
@@ -64,7 +58,18 @@
 <li>0.0.3
 
 <ul>
-<li>Changed the ugliy implementation of add and remove event listener for touchstart to a more elegant way </li>
+<li>Changed implementation of adding and removing event listener for touchstart</li>
+</ul>
+</li>
+<li>0.0.2
+
+<ul>
+<li>Re-coded in ES6</li>
+<li>Removed jquery dependency</li>
+<li>Removed event listeners onproess, onmetadata, onloadeddata, onloadstart</li>
+<li>Removed function of auto converting video tags with "playsinline" attribute </li>
+<li>Removed create canvas element with Javascript</li>
+<li>Removed play, stop buttons created with JavaScript </li>
 </ul>
 </li>
 </ul>
@@ -81,7 +86,7 @@
 <a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>HOW TO USE</h3>
 
 <ul>
-<li>Please refer to the <a href="example">example folder</a>
+<li>Please refer to the code in the <a href="http://wewearglasses.github.io/InlineVideo/example">example file</a>
 </li>
 </ul>
       </section>
