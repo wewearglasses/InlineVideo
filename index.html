@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Inlinevideo by wewearglasses</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/wewearglasses/InlineVideo">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Inlinevideo</h1>
+            <h2>A library to allow video to play inline if you&#39;re user is on an iphone.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/wewearglasses/InlineVideo/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/wewearglasses/InlineVideo/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h3>
+<a id="about-this-branch" class="anchor" href="#about-this-branch" aria-hidden="true"><span class="octicon octicon-link"></span></a>ABOUT THIS BRANCH</h3>
+
+<ul>
+<li>Re-coded in ES6</li>
+<li>Removed jquery dependency</li>
+<li>Removed all event listeners, onproess, onmetadata, onloadeddata, onloadstart. Add them back if you need them</li>
+<li>Removed auto converting video tags with "playsinline" attribute. Instead, the developer pass in the video and canvas idendifier in the contructor</li>
+<li>Removed auto create canvas element. I think adding them in HTML code is more obvious and the developer has more control over the dimension and positioning</li>
+</ul>
+
+<h3>
+<a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span class="octicon octicon-link"></span></a>CHANGELOG</h3>
+
+<ul>
+<li>0.0.3
+
+<ul>
+<li>Changed the ugliy implementation of add and remove event listener for touchstart to a more elegant way </li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>TODO</h3>
+
+<ul>
+<li>Add function to play an audio file along with the video</li>
+<li>To write a fall back to native feature if the mobile device is Android</li>
+</ul>
+
+<h3>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>HOW TO USE</h3>
+
+<ul>
+<li>Please refer to the <a href="example">example folder</a>
+</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/wewearglasses">wewearglasses</a> can be found on <a href="https://github.com/wewearglasses/InlineVideo">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
